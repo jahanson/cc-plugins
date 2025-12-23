@@ -1,0 +1,16 @@
+{
+  "name": "jsr-audit",
+  "version": "1.0.0",
+  "description": "Audit Deno/TypeScript packages for JSR compliance, scoring optimization, and publishing readiness",
+  "author": {
+    "name": "jahanson"
+  },
+  "keywords": [
+    "jsr",
+    "deno",
+    "typescript",
+    "publishing",
+    "audit",
+    "registry"
+  ]
+}

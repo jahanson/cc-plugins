@@ -1,0 +1,16 @@
+{
+  "name": "deno-lsp",
+  "version": "1.0.2",
+  "description": "Full Deno LSP integration with TypeScript/JavaScript code intelligence and comprehensive Deno development guidance",
+  "author": {
+    "name": "jahanson"
+  },
+  "keywords": [
+    "deno",
+    "typescript",
+    "javascript",
+    "lsp",
+    "ddd",
+    "patterns"
+  ]
+}

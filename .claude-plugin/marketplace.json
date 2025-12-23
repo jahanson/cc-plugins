@@ -1,0 +1,19 @@
+{
+  "name": "local-plugins",
+  "owner": {
+    "name": "Local Developer"
+  },
+  "description": "Local development plugins",
+  "plugins": [
+    {
+      "name": "deno-lsp",
+      "source": "./deno-lsp",
+      "description": "Deno LSP integration for TypeScript/JavaScript development"
+    },
+    {
+      "name": "jsr-audit",
+      "source": "./jsr-audit",
+      "description": "Audit Deno/TypeScript packages for JSR compliance and publishing readiness"
+    }
+  ]
+}
