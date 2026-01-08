@@ -1,7 +1,11 @@
 {
-  "deno": {
+  "typescript": {
     "command": "deno",
-    "args": ["lsp"],
+    "args": [
+      [
+        "lsp"
+      ]
+    ],
     "extensionToLanguage": {
       ".ts": "typescript",
       ".tsx": "typescriptreact",
@@ -10,18 +14,25 @@
       ".mts": "typescript",
       ".cts": "typescript",
       ".mjs": "javascript",
-      ".cjs": "javascript"
+      ". cjs": "javascript"
     },
+    "transport": "stdio",
     "initializationOptions": {
       "enable": true,
+      "enablePaths": [
+        "src",
+        "tests",
+        "fixtures"
+      ],
       "lint": true,
-      "unstable": false
+      "unstable": false,
+      "suggest": {
+        "autoImports": true,
+        "imports": {
+          "autoDiscover": true
+        }
+      }
     },
-    "settings": {
-      "deno.enable": true,
-      "deno.lint": true,
-      "deno.suggest.autoImports": true,
-      "deno.suggest.imports.autoDiscover": true
-    }
+    "maxRestarts": 3
   }
 }
